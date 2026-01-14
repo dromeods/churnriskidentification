@@ -1,6 +1,14 @@
 # Churn Risk Tracker
 
-A powerful CLI tool for managing and tracking client renewal risks at scale. Perfect for renewal teams managing hundreds or thousands of at-risk clients.
+A powerful tool for managing and tracking client renewal risks at scale. Perfect for renewal teams managing hundreds or thousands of at-risk clients.
+
+**Available in two versions:**
+- **CLI Version** (this file) - Simple command-line tool with local SQLite database
+- **Databricks Version** - Enterprise-grade solution with Delta Lake, visualizations, and team collaboration
+
+👉 **For 2000+ renewals, we recommend the [Databricks version](DATABRICKS_GUIDE.md)** for better scalability, collaboration, and automation.
+
+---
 
 ## 🎯 What This Solves
 
@@ -465,6 +473,29 @@ python3 churn_tracker.py export --output monthly_review.json
 ## 🎉 You're Ready!
 
 Start tracking your at-risk renewals systematically. Good luck turning those accounts around!
+
+---
+
+## 🚀 Want More Power? Try Databricks!
+
+For managing 2000+ renewals with your team, consider the **Databricks version**:
+
+✅ **Better for scale** - Handle thousands of clients with Spark + Delta Lake
+✅ **Better collaboration** - Multiple team members working simultaneously
+✅ **Better visualizations** - Rich charts, graphs, and dashboards
+✅ **Better automation** - Scheduled jobs, automated reports, email alerts
+✅ **Better integration** - Connect to CRM, data warehouse, BI tools
+
+**See [DATABRICKS_GUIDE.md](DATABRICKS_GUIDE.md) for full setup instructions.**
+
+Migration is easy:
+```bash
+# Export from CLI
+python3 churn_tracker.py export --output migration.json
+
+# Import to Databricks (see guide)
+# Takes just a few minutes!
+```
 
 ---
 
