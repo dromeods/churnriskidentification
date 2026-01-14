@@ -1,0 +1,35 @@
+# Churn Tracker Database
+churn_tracker.db
+churn_tracker.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Export files
+*.json
+!example*.json
+
+# CSV imports
+*.csv
+!*template*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*.backup

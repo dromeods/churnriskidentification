@@ -1,0 +1,16 @@
+# Churn Risk Tracker Requirements
+
+# This tool uses only Python 3 standard library
+# No external dependencies required!
+
+# Minimum Python version: 3.7+
+# Tested with Python 3.8, 3.9, 3.10, 3.11
+
+# Standard library modules used:
+# - sqlite3 (database)
+# - argparse (CLI)
+# - datetime (date handling)
+# - pathlib (file paths)
+# - json (data export)
+# - csv (bulk import helper)
+# - subprocess (bulk import helper)
